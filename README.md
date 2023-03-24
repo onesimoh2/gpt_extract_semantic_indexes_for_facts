@@ -1,4 +1,4 @@
-# Extract embedded vectors from a list of facts and from a query. Perform a semantic search the facts that are more relevants to the query.
+# Use GPT-3 to extract embedded vectors from a list of facts and from a query. Perform a semantic search to find which facts are relevant to the query.
 
 ## INITIAL THOUGHTS.
 
