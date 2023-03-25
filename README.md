@@ -41,5 +41,23 @@ Extracting keywords from the query before creating the embedded vector could pro
 Finally the results need to be stored in a database. In further projects I’ll investigate some possibilities for this
 
 
+## POST FINAL THOUGHTS
+
+A new notebook called 'AltCodeExtractKW' was created to test if we can obtain better results by extracting keywords from the facts, as a whole, and then get the embedding vector for them instead than directly from each of the facts. 
+
+We tried getting the embeddings from extracted keywords of the query and from the query directly. This second approach gave better results.
+
+The keywords extracted from all the facts are: Guillermo Cabrera Infante, Cuba, Havana, journalism, University of Havana, editor, Carteles, magazine, 1961, divorce, wife, actress, Brussels, Belgium, 1962, 1965, exile, Madrid, London, 1966, Tres tristes tigres, Joycean, novel, Vanishing Point, Richard C Sarafian, 1971, cult film, Guillermo Caín, 1997, Premio Cervantes, King Juan Carlos of Spain, sepsis, 2005, avant-garde, Castro regime, intellectuals.
+
+The similarity value obtained for each query was:
+Tell me a Latin American writer:   similarity: 0.817
+Tell me a Cuban writer:            similarity: 0.847
+Tell me a Chínese writer:          similarity: 0.763
+
+This is a better result than the one obtained in the 'PruMainCode' notebook. As expected, it find good similarity for 'Latin American', better one for 'Cuban' and not so good for Chinese.
+
+Testing with more data is required to acheve a definitive conclusion.
+
+
 
 
