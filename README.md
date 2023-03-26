@@ -53,8 +53,9 @@ The similarity value obtained for each query was:
 Tell me a Latin American writer:   similarity: 0.817
 Tell me a Cuban writer:            similarity: 0.847
 Tell me a Chínese writer:          similarity: 0.763
+Tell me a French writer:           similarity: 0.78
 
-This is a better result than the one obtained in the 'PruMainCode' notebook. As expected, it find good similarity for 'Latin American', better one for 'Cuban' and not so good for Chinese.
+This is a better result than the one obtained in the 'PruMainCode' notebook. As expected, it find good similarity for 'Latin American', better one for 'Cuban' and not so good for Chinese, or French.
 
 Testing with more data is required to acheve a definitive conclusion.
 
